@@ -1,0 +1,17 @@
+{
+  "name": "jacson/php-picpay",
+  "description": "Um Simples SDK para a API do PicPay.",
+  "keywords": ["SDK", "PicPay"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpPicPay\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
